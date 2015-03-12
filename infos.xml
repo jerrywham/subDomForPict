@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<title><![CDATA[subDomForPict]]></title>
+	<author><![CDATA[Cyril Maguire]]></author>
+	<version>1.0</version>
+	<date>29/01/2014</date>
+	<site>http://www.ecyseo.net</site>
+	<description><![CDATA[Plugin permettant de modifier le chemin des images afin d'utiliser un sous-domaine. Ainsi le navigateur les chargera en parallèle des autres données ce qui accélèrera le temps de chargement des pages]]></description>
+	<requirements></requirements>
+</document>
