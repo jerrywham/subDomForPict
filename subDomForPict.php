@@ -3,8 +3,8 @@
  * Plugin logInMyPluxml
  *
  * @package	PLX
- * @version	1.0
- * @date	29/01/2014
+ * @version	1.1
+ * @date	01/03/2017
  * @author	Cyril MAGUIRE
  **/
 class subDomForPict extends plxPlugin {
@@ -35,7 +35,7 @@ class subDomForPict extends plxPlugin {
 	 **/
 	public function IndexEnd() {
 		if (!empty($this->getParam('subdom'))) {
-			$string = '$output = str_replace(array(plxUtils::getRacine().\'data/images/\',\'data/images/\'), \''.$this->getParam('subdom').'\', $output);
+			$string = '$output = str_replace(array(plxUtils::getRacine().$plxMotor->aConf[\'medias\'],$plxMotor->aConf[\'medias\']), \''.$this->getParam('subdom').'\', $output);
 			';
 			echo "<?php ".$string."?>";
 		}
