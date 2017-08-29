@@ -5,6 +5,7 @@
 	<version>1.1</version>
 	<date>01/03/2017</date>
 	<site>http://www.ecyseo.net</site>
+        <compatible>5.6</compatible>
 	<description><![CDATA[Plugin permettant de modifier le chemin des images afin d'utiliser un sous-domaine. Ainsi le navigateur les chargera en parallèle des autres données ce qui accélèrera le temps de chargement des pages]]></description>
 	<requirements></requirements>
 </document>
